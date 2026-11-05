@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffd6e8,#d8c7ff,#cfe8ff,#d8f3dc);
+    min-height:100vh;
+}
+
+.login-container{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.login-card{
+    width:420px;
+    background:rgba(255,255,255,0.35);
+    backdrop-filter:blur(18px);
+    border:1px solid rgba(255,255,255,.5);
+    border-radius:25px;
+    padding:40px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.login-card:hover{
+    transform:translateY(-6px);
+}
+
+.title{
+    text-align:center;
+    color:#5b3d8b;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#6d6d6d;
+    margin-bottom:30px;
+    font-size:15px;
+}
+
+.input-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:22px;
+}
+
+.input-group label{
+    margin-bottom:8px;
+    color:#5b3d8b;
+    font-weight:600;
+}
+
+.input-group input,
+.input-group select{
+    padding:14px;
+    border:none;
+    border-radius:14px;
+    outline:none;
+    background:#ffffff;
+    font-size:15px;
+    transition:.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus{
+    box-shadow:0 0 0 3px #d8c7ff;
+}
+
+.login-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:bold;
+    color:white;
+    background:linear-gradient(135deg,#9b7bff,#6f8dff);
+    transition:.3s;
+}
+
+.login-btn:hover{
+    transform:scale(1.03);
+    box-shadow:0 12px 25px rgba(111,141,255,.35);
+}

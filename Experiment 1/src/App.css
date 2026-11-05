@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+    width:100%;
+    min-height:100vh;
+}
+
+body{
+    background:linear-gradient(135deg,#E8D9FF,#FFDCE8,#DDF4E7);
+    font-family:'Poppins',sans-serif;
+}
+
+#root{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:40px 0;
+}
+
+.app{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
